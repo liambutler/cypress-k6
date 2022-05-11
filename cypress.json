@@ -1,0 +1,7 @@
+{
+  "defaultCommandTimeout": 10000,
+  "baseUrl": "https://www.lego.com",
+  "retries": 2,
+  "viewportHeight": 900,
+  "viewportWidth": 1200
+}

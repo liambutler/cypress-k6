@@ -1,0 +1,12 @@
+{
+  "name": "cypress-artillery",
+  "version": "1.0.0",
+  "description": "Testing web apps with Cypress.io and Artillery.io",
+  "main": "index.js",
+  "author": "Liam Butler <24389501+liambutler@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "artillery": "^2.0.0-16",
+    "cypress": "9.5.0"
+  }
+}
