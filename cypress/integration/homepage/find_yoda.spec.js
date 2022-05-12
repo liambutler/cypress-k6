@@ -6,7 +6,7 @@ describe("Home page", () => {
     // and then uncomment the first two in the it() block
     cy.bypassAgeGate();
     cy.bypassCookieGate();
-    cy.visit("https://www.lego.com/en-dk");
+    cy.visit("https://www.lego.com/");
   });
 
   it("Can search for Yoda", () => {
