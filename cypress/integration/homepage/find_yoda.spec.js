@@ -39,8 +39,7 @@ describe("Home page", () => {
           .and("contain", productPrice);
         cy.clickByTestId("view-my-bag");
         cy.getByTestId("loading-page-wrapper").should("not.exist");
-        cy.get("h1").should("contain", "My bag (1)");
-        cy.getByTestId("util-bar-cart").should("contain", "1");
+        cy.get("h1").should("contain", "My bag");
         cy.getByTestId("cart-item")
           .should("contain", productName)
           .and("contain", productPrice);
