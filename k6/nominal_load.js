@@ -4,7 +4,7 @@ import { tagWithCurrentStageProfile } from "https://jslib.k6.io/k6-utils/1.3.0/i
 
 export const options = {
   stages: [
-    { duration: "60", target: 1 },
+    { duration: "60s", target: 1 },
     { duration: "300s", target: 1 },
     { duration: "20s", target: 0 }
   ]
