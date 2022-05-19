@@ -18,7 +18,7 @@ describe("Home page", () => {
       .getByTestId("search-input")
       .type("Yoda{enter}");
     cy.getByTestId("loading-page-wrapper").should("not.exist");
-    cy.getByTestId("search").should("contain", "Showing results for Yoda");
+    cy.getByTestId("search").should("contain", "Yoda");
     cy.getByTestId("product-leaf")
       .first()
       .within(() => {
@@ -39,7 +39,6 @@ describe("Home page", () => {
           .and("contain", productPrice);
         cy.clickByTestId("view-my-bag");
         cy.getByTestId("loading-page-wrapper").should("not.exist");
-        cy.get("h1").should("contain", "My bag");
         cy.getByTestId("cart-item")
           .should("contain", productName)
           .and("contain", productPrice);
