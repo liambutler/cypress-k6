@@ -7,15 +7,15 @@ Smoke tests for a front page search and a load test of an API
 To run the Cypress specs in interactive mode:
 
 ```sh
-yarn
-cypress open
+yarn install
+yarn cypress open
 ```
 
 And in headless mode:
 
 ```sh
-yarn
-cypress run
+yarn install
+yarn cypress run
 ```
 
 [CI/CD guides and examples](https://docs.cypress.io/guides/continuous-integration/ci-provider-examples#BitBucket "CI/CD guides and examples")
